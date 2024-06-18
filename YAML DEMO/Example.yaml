@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+description: "Template to create S3 Bucket"
+
+# Resources section
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    properties: 
+      # BucketEncryption: 
+      #  BucketEncryption
+      BucketName: "kiran-Cloudformationtemplate"
+
+  MysecondS3Bucket:
+    Type: AWS::S3::Bucket
+    properties: 
+      # BucketEncryption: 
+      #  BucketEncryption
+      BucketName: "kiran-Cloudformationtemplate-2"
+
